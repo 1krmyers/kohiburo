@@ -2,3 +2,15 @@ body, html {
   height: 100%;
   font-family: "Inconsolata", sans-serif;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) {
+  iframe {
+    width: 280px;
+    height: 100%;
+  }
+}
